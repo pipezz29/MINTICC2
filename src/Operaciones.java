@@ -33,4 +33,13 @@ public class Operaciones {
             return resultado;
         }
 
+    
+    
+    public double promedio(Double[] notas){
+        
+        
+        return 0;
+        
+    }
+
 }
