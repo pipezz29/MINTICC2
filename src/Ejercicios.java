@@ -16,9 +16,7 @@ public class Ejercicios {
         y  <número 2> es igual a <resultado> ”.
         */
 
-        //String numero1 = JOptionPane.showInputDialog(null, "Ingrese Primer Número: ");
-        //String numero2 = JOptionPane.showInputDialog(null, "Ingrese Primer Número: ");
-        
+                
 
         boolean canContinue = false;
         int num1 = 0; int num2 = 0;
@@ -40,19 +38,17 @@ public class Ejercicios {
         
     
         int sum = new Operaciones().suma(num1, num2);
-
         int resta = new Operaciones().resta(num1, num2);
-
         int producto = new Operaciones().producto(num1, num2);
+        Double division = new Operaciones().division(num1, num2);
+
+
+        JOptionPane.showMessageDialog(null, "La Suma de "+num1+" y "+num2+ " es igual a "+sum+"\n"+
+        "La Resta de "+num1+" y "+num2+ " es igual a "+resta+"\n"+
+        "El producto de "+num1+" y "+num2+ " es igual a "+producto+"\n"+
+        "La division de "+num1+" y "+num2+ " es igual a "+division, "Operaciones", JOptionPane.INFORMATION_MESSAGE);
         
-        int division = new Operaciones().producto(num1, num2);
-
-
-        JOptionPane.showMessageDialog(null, "La Suma de "+num1+" y "+num2+ " es igual a "+sum, "Operaciones", JOptionPane.INFORMATION_MESSAGE);
-        JOptionPane.showMessageDialog(null, "La Resta de "+num1+" y "+num2+ " es igual a "+resta, "Operaciones", JOptionPane.INFORMATION_MESSAGE);
-        JOptionPane.showMessageDialog(null, "El producto de "+num1+" y "+num2+ " es igual a "+producto, "Operaciones", JOptionPane.INFORMATION_MESSAGE);
-        JOptionPane.showMessageDialog(null, "La division de "+num1+" y "+num2+ " es igual a "+division, "Operaciones", JOptionPane.INFORMATION_MESSAGE);
-    
+        
     
     
 
