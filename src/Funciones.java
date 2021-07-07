@@ -1,3 +1,4 @@
+import javax.swing.JOptionPane;
 
 public class Funciones {
     
@@ -9,9 +10,9 @@ public class Funciones {
         int entero = (int) Math.sqrt(10);
         System.out.println(entero);*/
 
-        double base = 5, exponente = 2;
+        /*double base = 5, exponente = 2;
         double resultado = Math.pow(base, exponente);
-        System.out.println(resultado);
+        System.out.println(resultado);*/
 
         // doble devueve en long
         /*double numero = 4.56;
@@ -22,6 +23,9 @@ public class Funciones {
         /*float numero = 7.89f;
         int resultado = Math.round(numero);
         System.out.println(resultado);*/
+
+        JOptionPane.showMessageDialog(null, "Hola Mundo", "Hello word", JOptionPane.INFORMATION_MESSAGE);
+    
 
 
 
